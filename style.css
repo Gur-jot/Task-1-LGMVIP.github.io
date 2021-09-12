@@ -1,0 +1,798 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	background-color: #fff;
+}
+
+code {
+	font-family: 'Roboto', sans-serif;
+}
+
+html {
+	font-size: 63%;
+	scroll-behavior: smooth;
+}
+
+h2 {
+	font-size: 3rem;
+	font-weight: 600;
+}
+
+.row {
+	margin-left: -5px;
+	margin-right: -5px;
+}
+
+/* COMPONENET 1 : HEADER : STYLES */
+
+.header-01 .navbar {
+	transition: 0.5s;
+}
+
+.navbar-brand {
+	font-size: 3rem !important;
+	color: #fff !important;
+	padding-left: 21rem;
+	font-weight: bolder;
+}
+
+.collapse {
+	padding-right: 22rem;
+}
+
+.nav-link {
+	font-size: 1.5rem;
+	padding: 1rem 1.5rem !important;
+	color: #fff !important;
+	transition: .5s;
+}
+.nav-link:hover {
+	color: #0dd9e0 !important;
+}
+.navbar-dark .navbar-nav .active > .nav-link,
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link.show,
+.navbar-dark .navbar-nav .show > .nav-link {
+	color: #0dd9e0 !important;
+}
+
+/* COMPONENET 2 : CAROUSEL : STYLES */
+
+.carousel-card {
+	height: 100vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.carousel-item {
+	margin-top: -40px;
+}
+
+li {
+	list-style: none;
+	font-size: 1.2rem;
+	font-weight: 600;
+}
+
+.carousel-caption p {
+	font-size: 5.5rem;
+	color: #fff;
+	padding-left: 48px;
+}
+
+.carousel-caption .caption-01 {
+	margin-top: -30px;
+}
+
+.carousel-caption span {
+	padding-left: 52px;
+	font-size: 1.5rem;
+	max-width: 60rem;
+}
+
+.carousel-caption .caption-02 {
+	padding-left: 52px;
+	font-size: 1.5rem;
+	max-width: 60rem;
+}
+
+.carousel-indicators {
+	position: absolute;
+	bottom: 8rem;
+	left: -81rem;
+}
+
+.carousel-indicators [data-bs-target] {
+	height: 6px;
+	width: 7px;
+	border-radius: 100%;
+	position: relative;
+}
+
+.carousel-caption {
+	top: 18rem;
+	text-align: left;
+}
+
+.button-01 {
+	margin-left: 52px;
+	background-color: #45bdbd;
+}
+
+.button-02 {
+	background: #1c49da;
+	color: #fff;
+}
+
+.carousel-caption button .second_row button {
+	padding: 1rem 2rem;
+	font-size: 1.4rem;
+	border: 0;
+	outline: none;
+	color: #fff;
+	transition: .5s;
+}
+
+.carousel-caption .button-02:hover {
+	background: #a3226d;
+	color: #000;
+}
+.carousel-caption .button-01:hover {
+	background: #82589f;
+	color: #fff;
+}
+.w-100 {
+	height: 100vh;
+}
+
+button {
+	border: none;
+	outline: none;
+	background: #fff;
+	color: #000;
+	font-size: 1.5rem;
+	padding: 1rem 2rem;
+	transition: 0.5s;
+	margin-top: 10px;
+}
+
+/* COMPONENET 3 : WELCOME : STYLES */
+
+.components-03-header {
+	text-align: center;
+	font-size: 4rem;
+	font-weight: bolder;
+}
+
+.components-03-para {
+	color: grey;
+	text-align: left;
+	line-height: 1.5;
+	font-size: 2rem;
+}
+
+.components-03-data {
+	margin-top: 4rem;
+	padding: 0 25%;
+}
+
+.components-03-image {
+	height: 150px;
+	width: auto;
+	max-width: 100%;
+}
+
+.components-03-row2 {
+	font-size: 1.3rem;
+}
+
+.components-03-row2-div {
+	background-color: #434edd;
+	height: 70px;
+	width: 70px;
+	border-radius: 100%;
+	margin: 0 auto;
+}
+
+.components-03-row2-image {
+	height: 40px;
+	width: 40px;
+	margin-top: 20px;
+	color: #fff;
+	font-size: 2.5rem;
+	padding-left: 2.3rem;
+}
+
+.components-03-row2-card-heading {
+	font-weight: 600;
+	padding: 10% 5% 10% 0;
+	margin-left: 7rem;
+	color: #434edd;
+}
+
+.components-03-row2-card-text {
+	padding: 0 10% 5% 10%;
+	color: #878686;
+}
+
+.components-03-row2-button-01 {
+	background-color: #306dc9;
+	color: black;
+}
+.components-03-row2-button-02 {
+	background-color: #530e5c;
+	color: white;
+}
+.components-03-row2-button-02:hover {
+	background-color: #434edd;
+	color: black;
+}
+.components-03-row2-button-01:hover {
+	background-color: #434edd;
+	color: white;
+}
+
+.button-style {
+	padding-left: 5rem;
+}
+
+.icon {
+	text-align: center;
+	height: 6rem;
+	width: 6rem;
+	border-radius: 50%;
+	background: #434edd;
+	margin: 1rem 0;
+}
+.icon i {
+	font-size: 2rem;
+	line-height: 6rem;
+	color: #fff;
+}
+
+/* COMPONENT 4 : PROJECT : STYLES */
+
+#project-01 {
+	padding-top: 2%;
+	font-size: medium;
+}
+
+#project-01 h2 {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.project-01-card {
+	margin: 0;
+	padding: 0;
+	border-radius: 0;
+	border: 0;
+}
+
+.card-image {
+	width: 100%;
+	height: 22vw;
+	object-fit: cover;
+}
+
+.project-01-card-body1 {
+	background-color: #e0e0e0;
+	text-align: left;
+	padding: 15% 10%;
+}
+
+.project-01-card-body2 {
+	background-color: #c9c7c7;
+	text-align: left;
+	padding: 15% 10%;
+}
+
+.project-01-card-body1:hover {
+	background-color: #434edd;
+}
+
+.project-01-card-body2:hover {
+	background-color: #434edd;
+}
+
+.project-01-card-title {
+	color: black;
+	font-size: larger;
+	font-weight: bolder;
+}
+
+.project-01-card-text {
+	color: #5e5b5b;
+}
+
+.project-01-button {
+	background-color: white;
+	border: 0;
+	color: #434edd;
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.project-01-button:hover {
+	background-color: #72147e;
+	color: white;
+}
+
+/* COMPONENT 5 : PRICING : STYLES */
+
+#pricing-01 {
+	background-color: white;
+	font-size: medium;
+}
+
+#pricing-01 h2 {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.pricing-01-data {
+	padding: 0 25%;
+	padding-top: 3%;
+}
+.pricing-01-button {
+	background-color: #434edd;
+	color: black;
+	padding: 1% 18%;
+}
+
+.pricing-01-button:hover {
+	background-color: #434edd;
+	color: white;
+}
+
+.pricing-01-card {
+	border: 0;
+}
+
+.pricing-01-card2 {
+	border-top: 0;
+	border-bottom: 0;
+	border-width: 2px;
+	border-radius: 0;
+	padding-left: 5rem;
+	padding-right: 2rem;
+}
+
+.card-title {
+	font-size: larger;
+}
+
+/* COMPONENT 6 : VIDEO : STYLES */
+
+#video-01 {
+	background-image: linear-gradient(-225deg, #ac32e4 28%, #7918f2 38%, #4801ff) !important;
+	padding: 15% 0;
+}
+
+.video-01-heading {
+	color: white;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top: -15rem;
+}
+
+.video-01-all {
+	margin-bottom: 6rem;
+}
+
+.video-01-slide-left {
+	float: left;
+	width: 30%;
+	height: 300px;
+	padding-left: 10rem;
+}
+.video-01-slide-middle {
+	float: left;
+	width: 30%;
+	height: 300px;
+	padding-left: 12.5rem;
+	padding-right: 10rem;
+}
+.video-01-slide-right {
+	float: right;
+	width: 30%;
+	height: 300px;
+	padding-right: 10rem;
+}
+
+/* COMPONENT 7 : TEAMS : STYLES */
+
+.section-01-heading {
+	margin-top: 10rem;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top: 5rem;
+}
+
+.section-01-data {
+	padding: 0 25%;
+	padding-top: 3%;
+}
+
+.section-01-card {
+	border: 0;
+	padding: 6%;
+}
+.section-01-div {
+	margin: 0 auto;
+	background-color: #72147e;
+	height: 150px;
+	width: 150px;
+	border-radius: 100%;
+}
+
+.section-01-image {
+	height: 150px;
+	width: 150px;
+	border-radius: 100%;
+	position: relative;
+	text-align: center;
+	color: white;
+}
+
+.icon-01 {
+	position: absolute;
+	top: 38%;
+	left: 37%;
+	transform: translate(-50%, -50%);
+	font-size: 2.2rem;
+	color: white;
+}
+
+.icon-02 {
+	position: absolute;
+	top: 38%;
+	left: 51%;
+	transform: translate(-40%, -40%);
+	color: white;
+	font-size: 2.2rem;
+}
+
+.icon-03 {
+	position: absolute;
+	top: 37%;
+	left: 65%;
+	transform: translate(-30%, -30%);
+	color: white;
+	font-size: 2.2rem;
+}
+
+.icon-03 {
+	opacity: 0;
+}
+
+.section-01-div:hover .icon-03 {
+	opacity: 1;
+}
+
+.icon-02 {
+	opacity: 0;
+}
+
+.section-01-div:hover .icon-02 {
+	opacity: 1;
+}
+
+.icon-01 {
+	opacity: 0;
+}
+
+.section-01-div:hover .icon-01 {
+	opacity: 1;
+}
+
+.section-01-image:hover {
+	opacity: 0.4;
+}
+
+.section-02-heading {
+	margin-top: 1rem;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	font-size: large;
+	font-weight: bold;
+}
+
+.card-text {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	font-size: small;
+	font-weight: 300;
+}
+
+/* COMPONENT 8 : LIFE AT ZIPPY : STYLES */
+
+#zippy {
+	background-color: #e0e0e0;
+	padding-bottom: 2%;
+}
+
+.zippy-heading {
+	padding-top: 4%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.zippy-face {
+	max-width: 100%;
+	max-height: 400px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-left: 40%;
+}
+
+.thumbnail {
+	object-fit: cover;
+	max-width: 130px;
+	max-height: 70px;
+	cursor: pointer;
+	opacity: 0.8;
+	margin: 5px;
+}
+
+.thumbnail:hover {
+	opacity: 1;
+}
+
+.zippy-slide-wrapper {
+	max-width: 700px;
+	width: 650px;
+	margin: 0 auto;
+	display: flex;
+	min-height: 100px;
+	align-items: center;
+}
+
+.zippy-slider {
+	width: 600px;
+	display: flex;
+	flex-wrap: nowrap;
+	overflow-x: auto;
+}
+
+.zippy-slider::-webkit-scrollbar {
+	display: none;
+}
+
+.sign {
+	width: 30px;
+	height: 70px;
+	cursor: pointer;
+	transition: 0.3s;
+	background-color: #474747;
+}
+
+.sign:hover {
+	background-color: purple;
+}
+
+/* COMPONENT 9 : NEWSLETTER : STYLES */
+
+#newsletter-01 {
+	background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(../images/13.jpg);
+	height: 30rem;
+	background-size: cover;
+	background-position: center;
+}
+#newsletter-01 .newsletter-01-signup {
+	height: 7rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#newsletter-01 .newsletter-01-signup {
+	max-width: 350rem;
+	height: 16rem;
+	border: none;
+	outline: none;
+	padding: 1rem 1rem;
+	font-size: 1.6rem;
+	color: #82589f;
+}
+#newsletter-01 .newsletter-01-signup button {
+	height: 4rem;
+	font-size: 1.4rem;
+	margin-left: 0.8rem;
+	color: #000;
+	font-weight: 600;
+	background: #fed330;
+	padding: 0.6rem 0.8rem;
+}
+
+#newsletter-01 .newsletter-01-signup button:hover {
+	background-color: #82589f;
+	color: #fff;
+}
+
+/* COMPONENT 10 : BLOG : STYLES */
+
+#blog-01 {
+	padding: 2% 0;
+}
+
+.blog-01-data {
+	padding: 0 25%;
+	padding-top: 3%;
+}
+
+.blog-01-card {
+	padding: 4%;
+	border: 0;
+	border-radius: 0;
+}
+.blog-01-image {
+	max-width: 100%;
+	height: 120px;
+}
+.blog-01-button {
+	background-color: #e0e0e0;
+	margin-top: 10px;
+	font-family: Montserrat;
+	font-size: 13px;
+	font-weight: 700;
+}
+.blog-01-button:hover {
+	background-color: #5686c4;
+	color: black;
+}
+
+/* COMPONENT 11 : CONTACT : STYLES */
+
+
+.contact-01-image {
+	max-width: 50%;
+	max-height: 50%;
+}
+.contact-01-side1 {
+	padding: 0;
+}
+.contact-01-side2 {
+	text-align: left;
+	margin: 0;
+	background-color: #8893a1;
+	padding-left: 3%;
+}
+.contact-01-heading {
+	padding: 6% 0 1% 0;
+}
+
+.contact-01-form {
+	padding-left: 2%;
+	width: 300px;
+}
+.contact-01-label {
+	font-size: 12px;
+	font-weight: bold !important;
+}
+.contact-01-sendbutton {
+	width: 100px;
+	background-color: #72147e;
+	color: white;
+}
+.contact-01-sendbutton:hover {
+	background-color: #93549c;
+	color: white;
+}
+.text-size{
+	font-size: 15px;
+	font-weight: bold;
+}
+
+/* MOBILE VIEW */
+
+@media (max-width: 540px) {
+	.navbar-brand {
+		padding-left: 1rem;
+		padding-right: 0rem;
+	}
+
+	.carousel-card {
+		height: 10vh;
+		background-size: auto;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+
+	.carousel-caption p {
+		font-size: 3.5rem;
+		color: #fff;
+		padding-left: 0px;
+	}
+
+	.carousel-caption span {
+		margin-bottom: 50rem;
+	}
+
+	.button-01 {
+		display: none;
+	}
+
+	.carousel-caption .caption-01 {
+		padding-top: 1.5rem;
+		font-size: 3.5rem;
+		color: #fff;
+		padding-left: 0px;
+	}
+
+	.carousel-caption span {
+		font-size: 1.5rem;
+		color: #fff;
+		padding-left: 1px;
+		margin-left: 0px;
+	}
+
+	.caption-02 {
+		display: none;
+	}
+
+	.components-03 {
+		margin-top: 75rem;
+	}
+
+	.components-03-row2-card-heading {
+		padding: 10% 5% 10% 0;
+		margin-left: 5rem;
+	}
+
+	.pricing-01-card {
+		padding-top: 2rem;
+		padding-right: 6rem;
+	}
+
+	.card-03 {
+		padding-left: 2rem;
+		padding-right: 0rem;
+	}
+
+	#video-01 {
+		background-image: linear-gradient(-225deg, #ac32e4 28%, #7918f2 38%, #4801ff) !important;
+		padding: 50% 0;
+	}
+
+	.video-01-slide-left {
+		display: none;
+	}
+	.video-01-slide-middle {
+		float: left;
+		width: 10%;
+		height: 100px;
+		padding-left: 2.5rem;
+		padding-right: 10rem;
+	}
+	.video-01-slide-right {
+		display: none;
+	}
+
+	#zippy {
+		background-color: #e0e0e0;
+		padding-bottom: 2%;
+	}
+
+	.zippy-face {
+		max-width: 100%;
+		max-height: 150px;
+		margin-left: 7rem;
+	}
+
+	.zippy-slide-wrapper {
+		width: 250px;
+	}
+}
